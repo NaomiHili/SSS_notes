@@ -1,4 +1,7 @@
 <?php
+    
+session_start();
+
 
 
 ?>
@@ -39,15 +42,25 @@
           </div>
         </nav>
 
+       <br>
        
        
-       <div class="jumbotron">
-          <h1 class="display-4">Hello, world!</h1>
-          <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-          <hr class="my-4">
-          <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-    </div>
+       <form method="post" action="logindb.php" name="login">
+    
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label >Username:</label>
+              <input type="text" class="form-control" placeholder="Username" name="Auser">
+            </div>
+            <div class="form-group col-md-6">
+              <label>Password:</label>
+              <input type="password" class="form-control"  placeholder="Surname" name="Apass">
+            </div>
+          </div>
+            
+        <button type="submit" class="btn btn-primary mb-2">Login</button>
+        
+       </form>
 
     </body>
 </html>
