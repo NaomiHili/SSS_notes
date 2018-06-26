@@ -1,0 +1,25 @@
+{
+    padding: 0;
+    margin: 0;
+}
+.jumbotron h1{
+    text-align: center;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #222;
+    text-align: center;
+    padding-top: 1%;
+}
+.container {
+    text-align: center;
+}
+.login{
+    float: right;
+}
+form.form-inline {
+    margin-left: 20%;
+    padding-right: 20px;
+}
